@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Sort_test">
+      <UniqueIdentifier>{94036565-ded1-4c3a-97dd-aa0f909e36f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\链表">
+      <UniqueIdentifier>{8ff86a79-b6cc-4e7e-8270-d5347acd87b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\二叉树">
+      <UniqueIdentifier>{ef40c455-83e7-48b2-b2cd-133b5027dd7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划">
+      <UniqueIdentifier>{56990665-04ae-4358-a2bd-cdae93d5a124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\双指针">
+      <UniqueIdentifier>{33907eee-6793-4fdf-92a9-92977f5e79d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="01 冒泡排序.cpp">
+      <Filter>源文件\Sort_test</Filter>
+    </ClCompile>
+    <ClCompile Include="02 选择排序.cpp">
+      <Filter>源文件\Sort_test</Filter>
+    </ClCompile>
+    <ClCompile Include="03 插入排序.cpp">
+      <Filter>源文件\Sort_test</Filter>
+    </ClCompile>
+    <ClCompile Include="04 堆排序.cpp">
+      <Filter>源文件\Sort_test</Filter>
+    </ClCompile>
+    <ClCompile Include="05 希尔排序.cpp">
+      <Filter>源文件\Sort_test</Filter>
+    </ClCompile>
+    <ClCompile Include="06 归并排序.cpp">
+      <Filter>源文件\Sort_test</Filter>
+    </ClCompile>
+    <ClCompile Include="07 快速排序.cpp">
+      <Filter>源文件\Sort_test</Filter>
+    </ClCompile>
+    <ClCompile Include="08 计数排序.cpp">
+      <Filter>源文件\Sort_test</Filter>
+    </ClCompile>
+    <ClCompile Include="01 BFS+DFS.cpp">
+      <Filter>源文件\二叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="n_sum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="02 二叉树的遍历.cpp">
+      <Filter>源文件\二叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树.cpp">
+      <Filter>源文件\二叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="03 构造二叉树.cpp">
+      <Filter>源文件\二叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="04 序列化与反序列化.cpp">
+      <Filter>源文件\二叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="05 遍历与分解问题.cpp">
+      <Filter>源文件\二叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="Random获取.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="01 基本概念.cpp">
+      <Filter>源文件\动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="01 双指针-滑动窗口.cpp">
+      <Filter>源文件\双指针</Filter>
+    </ClCompile>
+    <ClCompile Include="02 子序_DP.cpp">
+      <Filter>源文件\动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="03 背包问题_DP.cpp">
+      <Filter>源文件\动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="04 打家劫舍_DPcpp.cpp">
+      <Filter>源文件\动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="05 股票问题_DP.cpp">
+      <Filter>源文件\动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="02 双指针-左右指针.cpp">
+      <Filter>源文件\双指针</Filter>
+    </ClCompile>
+    <ClCompile Include="06 二叉搜索树.cpp">
+      <Filter>源文件\二叉树</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myhead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkListhead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
